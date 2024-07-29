@@ -5,7 +5,7 @@
 </head>
 <body>
 <h1>Register</h1>
-<form th:action="@{/api/auth/register}" method="post" th:object="${userDTO}">
+<form th:action="@{/auth/register}" method="post" th:object="${userDTO}">
     <div>
         <label>Facility Code:</label>
         <input type="text" th:field="*{facilityCode}" />
